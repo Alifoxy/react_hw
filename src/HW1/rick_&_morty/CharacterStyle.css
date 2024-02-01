@@ -1,0 +1,22 @@
+.character_div{
+    margin: 10px;
+    padding: 10px;
+    color: rebeccapurple;
+    background-color: #6984d2;
+    font-family: "BankGothic Md BT" , sans-serif;
+    font-size: 20px;
+    width: 500px;
+    border-radius: 30px;
+    border: rebeccapurple dashed 5px;
+}
+.text_div{
+    background-color: lightblue;
+    border-radius: 30px;
+    border: rebeccapurple dashed 5px;
+    padding: 10px;
+}
+.image{
+    height: 480px;
+    margin: 10px;
+    border-radius: 30px;
+}

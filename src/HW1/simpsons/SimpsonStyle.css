@@ -1,0 +1,28 @@
+.simpson_div{
+    margin: 10px;
+    padding: 10px;
+    color: dodgerblue;
+    background-color: #ffdd63;
+    font-family: "Comic Sans MS" , sans-serif;
+    font-size: 20px;
+    width: 500px;
+    border-radius: 30px;
+    border: dodgerblue dashed 5px;
+}
+.text_div{
+    background-color: #ffdda3;
+    border-radius: 30px;
+    border: dodgerblue dashed 5px;
+    padding: 10px;
+}
+.image{
+    height: 350px;
+}
+.img_div{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: ghostwhite;
+    border-radius: 30px;
+}
