@@ -1,9 +1,9 @@
-// -------------------------Homework1---------------------------
-//simpsons project run
-import {App} from './components/simpsons/Simpsons';
+//-------------------------Homework2---------------------------
+//users project run
+// import {App} from './components/homework2/users/RunApp';
 
-// rick & morty project run
-// import {App} from './components/rick_&_morty/Characters';
-// -------------------------------------------------------------
+//spacex project run
+import {App} from './components/homework2/spacex/RunApp';
+//-------------------------------------------------------------
 
 export{App};

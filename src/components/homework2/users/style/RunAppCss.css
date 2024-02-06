@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.main_block{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    background: lightseagreen;
+    padding: 10px;
+    border-radius: 20px;
+    border: 3px solid darkslategrey;
+    font-family: "Trebuchet MS", sans-serif;
+    color: darkslategrey;
+}
+
+.users_block{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1450px;
+    height: 300px;
+    background: #6ff1cd;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.post_block {
+    box-sizing: border-box;
+    padding: 10px;
+    margin:10px;
+    border-radius: 20px;
+    background: paleturquoise;
+}
+
+.user_block {
+    width: 280px;
+    height: 130px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    border: 3px dashed darkslategrey;
+}
+
+.button{
+    margin-top: 10px;
+    width: 200px;
+    height:30px;
+    background-color: mediumspringgreen;
+    border-radius: 20px;
+    border: 2px solid darkslategrey;
+}

@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.main_block {
+    display: flex;
+    width: fit-content;
+    background: darkslateblue;
+    padding: 10px;
+    border-radius: 20px;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: gold;
+}
+.flights_block{
+    display: flex;
+    flex-wrap: wrap;
+    width: 820px;
+    justify-content: space-evenly;
+}
+.launch_block{
+    box-sizing: border-box;
+    width: 400px;
+    background: lightsteelblue;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
