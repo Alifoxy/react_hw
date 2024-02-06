@@ -11,6 +11,8 @@ body{
     border-style: dotted;
     border-width: 5px;
     border-color: gold;
+    font-family: "BankGothic Md BT",sans-serif;
+    font-size:20px ;
 }
 .flights_block{
     display: flex;
@@ -25,5 +27,8 @@ body{
     padding: 10px;
     margin: 5px;
     border-radius: 20px;
+}
+img{
+    margin-left: 60px;
 }
 
