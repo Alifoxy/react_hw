@@ -7,7 +7,6 @@ export const User = ({user}) => {
             <div>id: {id}</div>
             <div>name: {name}</div>
             <div>email: {email}</div>
-            <div></div>
         </div>
     );
 };
