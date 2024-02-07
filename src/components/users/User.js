@@ -1,5 +1,5 @@
-import './style/RunAppCss.css';
-export const User = ({user, setUserId}) => {
+import './style/UsersStyle.css';
+export const User = ({user}) => {
     const {id, name, email} = user;
 
     return (
@@ -7,7 +7,6 @@ export const User = ({user, setUserId}) => {
             <div>id: {id}</div>
             <div>name: {name}</div>
             <div>email: {email}</div>
-            <button onClick={()=>setUserId(id)} className={'button'}>Show user posts</button>
         </div>
     );
 };

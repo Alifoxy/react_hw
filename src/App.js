@@ -1,10 +1,18 @@
 //-------------------------Homework2---------------------------
-//users project run
-import {App} from './components/homework2/users/RunApp';
+//users project
+import {Users} from './components/users/Users';
 
-//spacex project run
-// import {App} from './components/homework2/spacex/RunApp';
+//spacex project
+import {Launches} from './components/spacex/Launches';
 //-------------------------------------------------------------
 
+const App = () => {
+    return (
+        <div>
+            <Users/>
+            {/*<Launches/>*/}
+        </div>
+    );
+};
 export {App}
 

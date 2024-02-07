@@ -3,7 +3,7 @@ body {
     justify-content: center;
 }
 
-.main_block{
+.main_block2{
     display: flex;
     flex-direction: column;
     width: fit-content;
@@ -12,7 +12,13 @@ body {
     border-radius: 20px;
     border: 3px solid darkslategrey;
     font-family: "Trebuchet MS", sans-serif;
-    color: darkslategrey;
+    color: #224444;
+}
+.posts_block{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1450px;
+    justify-content: space-evenly;
 }
 
 .users_block{
@@ -27,10 +33,14 @@ body {
 
 .post_block {
     box-sizing: border-box;
+    width: 300px;
     padding: 10px;
     margin:10px;
     border-radius: 20px;
     background: paleturquoise;
+}
+.posts_details_block{
+    width:1450px;
 }
 
 .user_block {

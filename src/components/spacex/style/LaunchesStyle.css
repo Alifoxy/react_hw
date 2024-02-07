@@ -2,7 +2,7 @@ body{
     display: flex;
     justify-content: center;
 }
-.main_block {
+.main_block1 {
     display: flex;
     width: fit-content;
     background: darkslateblue;
