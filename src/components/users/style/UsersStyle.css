@@ -32,6 +32,9 @@ body {
 }
 
 .post_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     box-sizing: border-box;
     width: 300px;
     padding: 10px;
