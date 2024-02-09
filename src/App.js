@@ -1,6 +1,6 @@
 //-------------------------Homework2---------------------------
 //users project
-import {Users} from './components/Users/Users';
+import {User} from './components/Users/Users';
 
 //spacex project
 import {Launches} from './components/Cars/Launches';
@@ -9,7 +9,7 @@ import {Launches} from './components/Cars/Launches';
 const App = () => {
     return (
         <div>
-            <Users/>
+            <User/>
             {/*<Launches/>*/}
         </div>
     );
