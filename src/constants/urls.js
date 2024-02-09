@@ -1,15 +1,15 @@
 export const UsersBaseURL = 'https://jsonplaceholder.typicode.com'
-export const SpaceXBaseURL = 'https://api.spacexdata.com/v3'
+export const CarsBaseURL = 'https://owu.linkpc.net/carsAPI/v1/doc'
 
 
 const users = '/users';
-const posts = '/posts';
-const launches = '/launches';
+const comments = '/comments';
+const cars = '/cars';
 
 export const urls = {
     users,
-    launches,
-    posts,
+    comments,
+    cars,
 }
 
 

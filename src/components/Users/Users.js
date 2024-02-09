@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import {User} from "./User";
 import {UsersService} from "../../services/users_service";
-import {UserPosts} from "./UserPosts";
-import './style/UsersStyle.css';
+import {UserForm} from "./UserPosts";
+import './Style/UsersStyle.css';
 
 export const Users = () => {
     const [users, setUsers] = useState([]);
@@ -17,7 +17,7 @@ export const Users = () => {
             <div className={'users_block'}>
                 {users.map(user => <User key={user.id} user={user}/>)}
             </div>
-            <UserPosts/>
+            <UserForm/>
         </div>
     );
 }
