@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import {Launch} from "./Launch";
 import {LaunchesService} from "../../services/launches_service";
-import './style/LaunchesStyle.css';
+import './Style/LaunchesStyle.css';
 
 export const Launches = () => {
     const [launches, setLaunches] = useState([]);

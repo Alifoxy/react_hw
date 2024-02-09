@@ -3,7 +3,7 @@ import React from 'react';
 export const User = ({users}) => {
 
     return (
-        <div>
+        <div className={'user_block'}>
             {users.map(user => {
                 const {id, username} = user;
                 return (

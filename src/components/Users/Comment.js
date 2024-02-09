@@ -3,8 +3,7 @@ import React from 'react';
 export const Comment = ({comments}) => {
 
     return (
-        <div>
-            <h1>Comments</h1>
+        <div className={'comment_block'}>
             {comments.map(item => {
                 const {id, name} = item;
                 return (

@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import {CommentForm} from "./CommentForm";
 import {Comment} from "./Comment";
 import {CommentsService} from "../../services/comments_service";
+import "./Style/UsersStyle.css"
 
 export const Comments = () => {
     const [comments, setComments] = useState([]);
@@ -13,9 +14,11 @@ export const Comments = () => {
 
     return (
         <div>
-            <div className={'main_block'}>
-                <CommentForm setComments={setComments}/>
+            <div className={'main_block2'}>
                 <hr/>
+                <h1>Comments</h1>
+                <hr/>
+                <CommentForm setComments={setComments}/>
                 <Comment comments={comments}/>
             </div>
         </div>

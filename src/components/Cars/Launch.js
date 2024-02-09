@@ -1,4 +1,4 @@
-import './style/LaunchesStyle.css';
+import './Style/LaunchesStyle.css';
 export const Launch = ({launch}) => {
     const {mission_name, launch_year, links:{mission_patch_small}} = launch;
         return (

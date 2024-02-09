@@ -15,10 +15,10 @@ export const UserForm = ({setUsers}) => {
 
 
     return (
-        <form onSubmit={handleSubmit(submit)}>
+        <form onSubmit={handleSubmit(submit)} className={'form'}>
             <input type="text" placeholder="username" {...register('username')}/>
             {errors.username&&<span>{errors.username.message}</span>}
-            <button disabled={!isValid}>Create new user</button>
+            <button disabled={!isValid} className={'button'}>Create new user</button>
         </form>
     );
 };

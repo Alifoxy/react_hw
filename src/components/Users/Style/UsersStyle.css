@@ -4,63 +4,61 @@ body {
 }
 
 .main_block2{
-    display: flex;
-    flex-direction: column;
-    width: fit-content;
-    background: lightseagreen;
+    width: 1000px;
+    background: mediumturquoise;
     padding: 10px;
     border-radius: 20px;
     border: 3px solid darkslategrey;
     font-family: "Trebuchet MS", sans-serif;
     color: #224444;
 }
-.posts_block{
-    display: flex;
-    flex-wrap: wrap;
-    width: 1450px;
-    justify-content: space-evenly;
-}
-
-.users_block{
-    display: flex;
-    flex-wrap: wrap;
-    width: 1450px;
-    height: 300px;
-    background: #6ff1cd;
+.main_block {
+    width: 1000px;
+    background: orchid;
     padding: 10px;
     border-radius: 20px;
+    border: 3px solid darkmagenta;
+    font-family: "Trebuchet MS", sans-serif;
+    color: rebeccapurple;
 }
 
-.post_block {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+.user_block{
     box-sizing: border-box;
-    width: 300px;
+    width: 980px;
+    background: thistle;
+    padding: 10px;
+    margin:10px;
+    border-radius: 20px;
+    border: 3px dashed darkmagenta;
+}
+
+.comment_block {
+    box-sizing: border-box;
+    width: 980px;
     padding: 10px;
     margin:10px;
     border-radius: 20px;
     background: paleturquoise;
-}
-.posts_details_block{
-    width:1450px;
-}
-
-.user_block {
-    width: 280px;
-    height: 130px;
-    box-sizing: border-box;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 20px;
     border: 3px dashed darkslategrey;
+
 }
 
 .button{
-    margin-top: 10px;
+    margin: 10px;
     width: 200px;
     height:30px;
-    background-color: mediumspringgreen;
+    background-color: lightskyblue;
     border-radius: 20px;
-    border: 2px solid darkslategrey;
+    border: 2px solid royalblue;
+}
+.form{
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+input{
+    box-sizing: border-box;
+    margin: 10px;
+    width: 300px;
+    height: 30px;
 }

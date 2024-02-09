@@ -15,10 +15,10 @@ export const CommentForm = ({setComments}) => {
 
 
     return (
-        <form onSubmit={handleSubmit(submit)}>
-            <input type="text" placeholder="name of comment" {...register('name')}/>
+        <form onSubmit={handleSubmit(submit)} className={'form'}>
+            <input type="text" placeholder="comment" {...register('name')}/>
             {errors.name&&<span>{errors.name.message}</span>}
-            <button disabled={!isValid}>Create new comment</button>
+            <button disabled={!isValid} className={'button'}>Create new comment</button>
         </form>
     );
 };
