@@ -1,4 +1,4 @@
 import axios from "axios";
-import { baseURL } from "../api/endpoints";
+import { UsersBaseURL } from "../constants/urls";
 
 export const axiosRequest = axios.create({baseURL})
