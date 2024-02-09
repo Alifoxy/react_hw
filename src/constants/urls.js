@@ -9,7 +9,10 @@ const cars = '/cars';
 export const urls = {
     users,
     comments,
-    cars,
+    cars: {
+        base: cars,
+        byId: (id) => `${cars}/${id}`
+    }
 }
 
 

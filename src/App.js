@@ -4,13 +4,17 @@ import {Users} from './components/Users/Users';
 
 //comments project
 import {Comments} from "./components/Users/Comments";
+
+//cars project
+import {CarsBox} from "./components/Cars/CarsBox";
 //-------------------------------------------------------------
 
 const App = () => {
     return (
         <div>
-            <Users/>
-            <Comments/>
+            {/*<Users/>*/}
+            {/*<Comments/>*/}
+            <CarsBox/>
         </div>
     );
 };
