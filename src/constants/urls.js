@@ -11,5 +11,3 @@ export const urls = {
     launches,
     posts,
 }
-
-
