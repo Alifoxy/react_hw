@@ -14,7 +14,7 @@ export const CarForm = ({resetTrigger,updateCar,setUpdateCar}) => {
             setValue('price', updateCar.price, {shouldValidate: true})
             setValue('year', updateCar.year, {shouldValidate: true})
         }
-    }, [updateCar]);
+    }, [updateCar, setValue]);
 
     const create = async (car) => {
         await CarsService.createCar(car)
