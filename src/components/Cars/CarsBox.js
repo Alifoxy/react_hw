@@ -8,11 +8,16 @@ import {Cars} from "./Cars";
 
 export const CarsBox = () => {
     const [cars, setCars] = useState([]);
+    const [trigger, setTrigger] = useState(null);
     const [updateCar, setUpdateCar] = useState(null);
 
     useEffect(() => {
         CarsService.getAll().then(({data}) => setCars([...data]))
-    }, []);
+    }, [trigger]);
+
+    const resetTrigger =()=>{
+        setTrigger(prev=>!prev)
+    }
 
     return (
         <div>
@@ -20,8 +25,8 @@ export const CarsBox = () => {
                 <hr/>
                 <h1>Cars</h1>
                 <hr/>
-                <CarForm setCars={setCars} updateCar={updateCar} setUpdateCar={setUpdateCar}/>
-                <Cars cars={cars} setUpdateCar={setUpdateCar}/>
+                <CarForm resetTrigger={resetTrigger} updateCar={updateCar} setUpdateCar={setUpdateCar}/>
+                <Cars cars={cars} setUpdateCar={setUpdateCar} resetTrigger={resetTrigger}/>
             </div>
         </div>
     );

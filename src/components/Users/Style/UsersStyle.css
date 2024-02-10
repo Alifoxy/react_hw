@@ -3,7 +3,7 @@ body {
     justify-content: center;
 }
 
-.main_block2{
+.comments_div{
     width: 1000px;
     background: mediumturquoise;
     padding: 10px;
@@ -12,7 +12,8 @@ body {
     font-family: "Trebuchet MS", sans-serif;
     color: #224444;
 }
-.main_block {
+
+.users_div {
     width: 1000px;
     background: orchid;
     padding: 10px;

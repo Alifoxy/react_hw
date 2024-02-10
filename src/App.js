@@ -1,9 +1,9 @@
 //-------------------------Homework2---------------------------
 //users project
-import {Users} from './components/Users/Users';
+import {UsersBox} from './components/Users/UsersBox';
 
 //comments project
-import {Comments} from "./components/Users/Comments";
+import {CommentsBox} from "./components/Users/CommentsBox";
 
 //cars project
 import {CarsBox} from "./components/Cars/CarsBox";
@@ -12,8 +12,8 @@ import {CarsBox} from "./components/Cars/CarsBox";
 const App = () => {
     return (
         <div>
-            {/*<Users/>*/}
-            {/*<Comments/>*/}
+            {/*<UsersBox/>*/}
+            {/*<CommentsBox/>*/}
             <CarsBox/>
         </div>
     );
