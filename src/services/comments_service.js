@@ -1,7 +1,6 @@
-import {UsersAPIService} from "./users_api_service";
+import {jsonAPIService} from "./json_api_service";
 import {urls} from "../constants/urls";
 
-export const CommentsService = {
-    getAll: () => UsersAPIService.get(urls.comments),
-    addComment: (data) => UsersAPIService.post(urls.comments, data)
+export const commentsService = {
+    getAll: () => jsonAPIService.get(urls.comments),
 }

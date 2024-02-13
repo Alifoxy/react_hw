@@ -1,18 +1,21 @@
-export const UsersBaseURL = 'https://jsonplaceholder.typicode.com'
-export const CarsBaseURL = 'http://owu.linkpc.net/carsAPI/v1'
+export const JsonBaseURL = 'https://jsonplaceholder.typicode.com'
 
 
-const users = '/users';
+const todos = '/users';
 const comments = '/comments';
-const cars = '/cars';
+const albums = '/albums';
+const posts = '/posts';
+
 
 export const urls = {
-    users,
+    todos,
+    albums,
     comments,
-    cars: {
-        base: cars,
-        byId: (id) => `${cars}/${id}`
+    posts: {
+        base:posts,
+        byId: (id) => `${posts}/${id}`,
     }
 }
+
 
 

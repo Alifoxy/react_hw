@@ -1,0 +1,13 @@
+export const Album = ({album}) => {
+    const {id, title} = album;
+
+    return (
+        <div className={'album_block'}>
+            <div>
+                <div>id: {id}</div>
+                <div>title:{title}</div>
+            </div>
+        </div>
+    );
+
+}
