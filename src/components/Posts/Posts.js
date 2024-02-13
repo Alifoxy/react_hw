@@ -11,8 +11,8 @@ const Posts = () => {
         postsService.getAll().then(({data}) => {
             const post = data.filter(item => item.id === postId)
             setPost(post)
-        )}
-    }
+        )};
+    },[]);
 
     return (
         <div>
