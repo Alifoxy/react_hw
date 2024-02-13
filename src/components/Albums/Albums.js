@@ -10,7 +10,7 @@ const Albums = () => {
     }, []);
 
     return (
-        <div>
+        <div className={'main_block'}>
             {albums.map(album=><Album key={album.id} album={album}/>)}
         </div>
     );

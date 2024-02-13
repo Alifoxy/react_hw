@@ -1,7 +1,7 @@
 export const JsonBaseURL = 'https://jsonplaceholder.typicode.com'
 
 
-const todos = '/users';
+const todos = '/todos';
 const comments = '/comments';
 const albums = '/albums';
 const posts = '/posts';

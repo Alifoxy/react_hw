@@ -4,7 +4,9 @@ import {Outlet} from "react-router-dom";
 const CommentsPage = () => {
     return (
         <div>
-            Comments
+            <div className={'title_block'}>
+                <h2>Comments</h2>
+            </div>
             <Comments/>
             <Outlet/>
         </div>

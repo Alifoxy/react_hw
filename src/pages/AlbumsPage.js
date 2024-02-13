@@ -3,7 +3,9 @@ import {Albums} from "../components/Albums/Albums";
 const AlbumsPage = () => {
     return (
         <div>
-            Albums
+            <div className={'title_block'}>
+                <h2>Albums</h2>
+            </div>
             <Albums/>
         </div>
     );
