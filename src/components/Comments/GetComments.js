@@ -12,7 +12,7 @@ const GetComments = () => {
     }, [postId]);
 
     return (
-        <div className={'main_block'}>
+        <div className={'main_block2'}>
             {comments.map(comment=><Comment key={comment.id} comment={comment}/>)}
         </div>
     );

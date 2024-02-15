@@ -8,7 +8,7 @@ const PostDetailsPage = () => {
                 <h2>Post Details</h2>
             </div>
             <GetPostDetails/>
-            <div className={'title_block'}>
+            <div className={'title_block2'}>
                 <h2>Post Comments</h2>
             </div>
             <GetComments/>

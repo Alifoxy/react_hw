@@ -5,7 +5,7 @@ export const UserPost = ({post}) => {
 
     const navigate = useNavigate();
     return (
-        <div className={'mini_block'}>
+        <div className={'mini_block2'}>
             <div>
                 <div>title: {title}</div>
                 <button onClick={() => navigate(id.toString())} className={'button'}>Get post`s details </button>

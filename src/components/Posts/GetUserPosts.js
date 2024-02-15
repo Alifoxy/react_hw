@@ -12,7 +12,7 @@ const GetUserPosts = () => {
     }, [userId]);
 
     return (
-        <div className={'main_block'}>
+        <div className={'main_block2'}>
             {userPosts.map(post=><UserPost key={post.id} post={post}/>)}
         </div>
 
