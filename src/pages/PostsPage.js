@@ -1,12 +1,12 @@
-import {Posts} from "../components/Posts/Posts";
+import {GetUserPosts} from "../components/Posts/GetUserPosts";
 
 const PostsPage = () => {
     return (
         <div>
             <div className={'title_block'}>
-                <h2>This comment belongs to the following post:</h2>
+                <h2>User Posts</h2>
             </div>
-            <Posts/>
+            <GetUserPosts/>
         </div>
     );
 };

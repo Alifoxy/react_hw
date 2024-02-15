@@ -1,13 +1,15 @@
 import {useEffect, useState} from "react";
 import {Comment} from "./Comment";
 import {commentsService} from "../../services/comments_service";
+import {useParams} from "react-router-dom";
 
-const Comments = () => {
+const GetComments = () => {
     const [comments, setComments] = useState([])
+    const {postId} = useParams()
 
     useEffect(() => {
-        commentsService.getAll().then(({data}) => setComments(data))
-    }, []);
+        commentsService.getByPostId(postId).then(({data}) => setComments(data))
+    }, [postId]);
 
     return (
         <div className={'main_block'}>
@@ -16,4 +18,4 @@ const Comments = () => {
     );
 };
 
-export {Comments};
+export {GetComments};
