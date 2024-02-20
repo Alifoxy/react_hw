@@ -1,9 +1,9 @@
 //-------------------------Homework2---------------------------
 //users project
-import {UsersBox} from './components/Users/UsersBox';
+import {UsersBox} from './components/Characters/UsersBox';
 
 //comments project
-import {CommentsBox} from "./components/Users/CommentsBox";
+import {CommentsBox} from "./components/Characters/CommentsBox";
 
 //cars project
 import {CarsBox} from "./components/Cars/CarsBox";

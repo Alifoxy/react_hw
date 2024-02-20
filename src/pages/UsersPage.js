@@ -1,4 +1,4 @@
-import {GetUsers} from "../components/Users/GetUsers";
+import {GetCharactersList} from "../components/Characters/GetUsers";
 
 const UsersPage = () => {
     return (
@@ -6,7 +6,7 @@ const UsersPage = () => {
             <div className={'title_block'}>
                 <h2>Users</h2>
             </div>
-            <GetUsers/>
+            <GetCharactersList/>
         </div>
     );
 };

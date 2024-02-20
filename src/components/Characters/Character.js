@@ -1,6 +1,6 @@
 import {useNavigate} from "react-router-dom";
 
-export const User = ({user}) => {
+export const Character = ({user}) => {
     const {id, name} = user;
 
     const navigate = useNavigate();

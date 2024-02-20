@@ -1,8 +1,8 @@
 import {useEffect, useState} from "react";
-import {User} from "./User";
+import {Character} from "./User";
 import {usersService} from "../../services/users_service";
 
-const GetUsers = () => {
+const GetCharactersList = () => {
     const [users, setUsers] = useState([])
 
     useEffect(() => {
@@ -11,9 +11,9 @@ const GetUsers = () => {
 
     return (
         <div className={'main_block'}>
-            {users.map(user=><User key={user.id} user={user}/>)}
+            {users.map(user=><Character key={user.id} user={user}/>)}
         </div>
     );
 };
 
-export {GetUsers};
+export {GetCharactersList};

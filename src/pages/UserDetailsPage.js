@@ -1,4 +1,4 @@
-import {GetUserDetails} from "../components/Users/GetUserDetails";
+import {GetUserDetails} from "../components/Characters/GetUserDetails";
 import {Outlet} from "react-router-dom";
 
 
