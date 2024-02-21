@@ -1,6 +1,6 @@
-import {GetCharactersList} from "../components/Characters/GetUsers";
+import {GetCharactersList} from "../components/Episodes/GetUsers";
 
-const UsersPage = () => {
+const EpisodesPage = () => {
     return (
         <div>
             <div className={'title_block'}>
@@ -11,4 +11,4 @@ const UsersPage = () => {
     );
 };
 
-export {UsersPage};
+export {EpisodesPage};

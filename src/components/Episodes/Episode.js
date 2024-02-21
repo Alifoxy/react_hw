@@ -1,7 +1,7 @@
 import {useNavigate} from "react-router-dom";
 
-export const Character = ({user}) => {
-    const {id, name} = user;
+export const Episode = ({episode}) => {
+    const {id, name, chapter} = episode;
 
     const navigate = useNavigate();
     return (
@@ -9,7 +9,8 @@ export const Character = ({user}) => {
             <div>
                 <div>id: {id}</div>
                 <div>name:{name}</div>
-                <button onClick={() => navigate(id.toString())} className={'button'}>Get user`s details </button>
+                <div>chapter:{chapter}</div>
+                <button onClick={() => navigate(id.toString())} className={'button'}>Show episode`s characters </button>
             </div>
         </div>
     );

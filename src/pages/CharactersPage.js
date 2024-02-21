@@ -1,6 +1,6 @@
 import {GetUserPosts} from "../components/Posts/GetUserPosts";
 
-const PostsPage = () => {
+const CharactersPage = () => {
     return (
         <div>
             <div className={'title_block2'}>
@@ -11,4 +11,4 @@ const PostsPage = () => {
     );
 };
 
-export {PostsPage};
+export {CharactersPage};

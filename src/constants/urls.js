@@ -1,25 +1,16 @@
-export const JsonBaseURL = 'https://jsonplaceholder.typicode.com'
+export const EpisodesBaseURL = 'https://rickandmortyapi.com/api'
 
 
-const users = '/users';
-const posts = '/posts';
-const comments = '/comments';
+const episode = '/episode';
+const characters = '/characters';
 
 
 export const urls = {
-    users:{
-        base:users,
-        byId: (id) => `${users}/${id}`,
+    episode:{
+        base:episode,
+        byId: (id) => `${episode}/${id}`,
     },
-    posts: {
-        base:posts,
-        byId: (id) => `${posts}/${id}`,
-        byUserId: (id) => `${users}/${id}/${posts}`
-    },
-    comments:{
-        base:comments,
-        byId: (id) => `${posts}/${id}/${comments}`,
-    },
+
 }
 
 
