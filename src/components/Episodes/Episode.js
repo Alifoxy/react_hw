@@ -1,7 +1,7 @@
 import {useNavigate} from "react-router-dom";
 
 export const Episode = ({episode}) => {
-    const {id, name, chapter} = episode;
+    const {id, name, episode:chapter} = episode;
 
     const navigate = useNavigate();
     return (
@@ -10,7 +10,7 @@ export const Episode = ({episode}) => {
                 <div>id: {id}</div>
                 <div>name:{name}</div>
                 <div>chapter:{chapter}</div>
-                <button onClick={() => navigate(id.toString())} className={'button'}>Show episode`s characters </button>
+                <button onClick={() => navigate(`${id.toString()}/characters`)} className={'button'}>Show episode`s characters </button>
             </div>
         </div>
     );

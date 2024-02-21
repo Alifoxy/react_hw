@@ -42,6 +42,11 @@ body {
     border-radius: 20px;
     border: 3px dashed indigo;
 }
+.pagination_block{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 .title_block{
     display: flex;
     justify-content: center;
@@ -78,5 +83,10 @@ body {
     border: 2px solid dodgerblue;
     color: midnightblue;
     font-family: "Trebuchet MS", sans-serif;
+}
+button:disabled{
+    background-color: lightgray;
+    border: 2px solid gray;
+    color: gray;
 }
 
