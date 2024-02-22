@@ -2,7 +2,7 @@ export const Character = ({character}) => {
     const {id, name,  links:{image}, episodes} = character;
 
     const toEpisodes = () => {
-        const epId = episodes.map(episode => episode.split('/').slice(-1)[0]).join(',');
+        const epId = episodes.map(episode => episode.split('/').slice(-1)[0]);
         navigate(`episodes/${epId}/characters`)
     };
 

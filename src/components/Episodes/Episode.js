@@ -3,6 +3,11 @@ import {useNavigate} from "react-router-dom";
 export const Episode = ({episode}) => {
     const {id, name, episode:chapter} = episode;
 
+    const toCharacters = () => {
+        const epId = episodes.map(episode => episode.split('/').slice(-1)[0]);
+        navigate(`episodes/${epId}/characters`)
+    };
+
     const navigate = useNavigate();
     return (
         <div className={'mini_block'}>
