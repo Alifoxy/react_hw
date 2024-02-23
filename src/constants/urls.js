@@ -9,7 +9,7 @@ export const urls = {
     episodes,
     characters:{
         base:characters,
-        byId: (id) => `${episodes}/${id}/${characters}`,
+        byId: (id) => `${characters}/${id}`,
     },
 
 }

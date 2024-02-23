@@ -1,11 +1,11 @@
 import {useNavigate} from "react-router-dom";
 
 export const Episode = ({episode}) => {
-    const {id, name, episode:chapter} = episode;
+    const {id, name, episode:chapter, characters} = episode;
 
     const toCharacters = () => {
-        const epId = episodes.map(episode => episode.split('/').slice(-1)[0]);
-        navigate(`episodes/${epId}/characters`)
+        const charId = characters.map(character => character.split('/').slice(-1)[0]);
+        navigate(`characters/${charId}`)
     };
 
     const navigate = useNavigate();
@@ -15,7 +15,7 @@ export const Episode = ({episode}) => {
                 <div>id: {id}</div>
                 <div>name:{name}</div>
                 <div>chapter:{chapter}</div>
-                <button onClick={() => navigate(`${id.toString()}/characters`)} className={'button'}>Show episode`s characters </button>
+                <button onClick={toCharacters} className={'button'}>Show episode`s characters </button>
             </div>
         </div>
     );

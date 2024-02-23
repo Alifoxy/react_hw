@@ -1,17 +1,12 @@
 export const Character = ({character}) => {
-    const {id, name,  links:{image}, episodes} = character;
-
-    const toEpisodes = () => {
-        const epId = episodes.map(episode => episode.split('/').slice(-1)[0]);
-        navigate(`episodes/${epId}/characters`)
-    };
+    const {id, name, image} = character;
 
     return (
         <div className={'mini_block'}>
             <div>
                 <div>id: {id}</div>
                 <div>name:{name}</div>
-                <div><img src={image} alt={'character'}/></div>
+                <img src={image} alt={'name'}/>
             </div>
         </div>
     );
