@@ -1,4 +1,4 @@
-import {EpisodesList} from "../components";
+import {EpisodesList, EpisodePagination} from "../components";
 
 const EpisodesPage = () => {
     return (
@@ -7,6 +7,7 @@ const EpisodesPage = () => {
                 <h2>Episodes</h2>
             </div>
             <EpisodesList/>
+            <EpisodePagination/>
         </div>
     );
 };
