@@ -1,6 +1,6 @@
 import {createAsyncThunk, createSlice} from "@reduxjs/toolkit";
 
-import {episodeService} from "../../services";
+import {episodesService} from "../../services";
 
 const initialState = {
     prev: null,
@@ -12,7 +12,7 @@ const getAll = createAsyncThunk(
     'episodesSlice/getAll',
     async ({page}, thunkAPI) => {
         try {
-            const {data} = await episodeService.getAll(page);
+            const {data} = await episodesService.getAll(page);
             return data
         } catch (e) {
             return thunkAPI.rejectWithValue(e.response.data)

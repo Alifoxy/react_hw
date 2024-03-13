@@ -1,4 +1,4 @@
-import {useEffect, useState} from "react";
+import {useEffect} from "react";
 import {Episode} from "./Episode";
 import {useSearchParams} from "react-router-dom";
 import {useDispatch, useSelector} from "react-redux";
