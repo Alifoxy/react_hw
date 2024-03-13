@@ -1,5 +1,4 @@
 export * from "./Header";
-export * from "./Characters";
-export * from "./Episodes";
+export * from "./Cars";
 
 

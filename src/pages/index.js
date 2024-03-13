@@ -1,5 +1,4 @@
-export * from "./CharactersPage";
-export * from "./EpisodesPage";
+export * from "./CarsPage";
 export * from "./ErrorPage";
 
 

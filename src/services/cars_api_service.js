@@ -1,4 +1,4 @@
 import axios from "axios";
 import {EpisodesBaseURL} from "../constants";
 
-export const episodesAPIService = axios.create({baseURL:EpisodesBaseURL})
+export const carsAPIService = axios.create({baseURL:EpisodesBaseURL})
